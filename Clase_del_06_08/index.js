@@ -4,6 +4,7 @@ const almacenar = () =>{
     const pasword = document.getElementById("inp_contrasena").value;
     const instancia = new Cuenta(usuario,pasword)
     instancia.guardarCuenta();   
+    listar();
 }
 const listar = () => {
     const instancia2 = new Cuenta();
